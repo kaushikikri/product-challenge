@@ -1,0 +1,77 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    margin: 0;
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+}
+
+img{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    
+}
+p{
+    font-family: 'Montserrat', sans-serif; 
+font-size: 14px;
+margin-bottom: 1.5rem;
+color: hsl(212, 21%, 14%);
+}
+i{
+    color:hsl(30, 38%, 92%);
+}
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    height: 30rem;
+    width: 40rem;
+    margin: 4% auto;
+    justify-content: space-evenly;
+}
+.image{
+    display: flex;
+    float: left;
+    height: inherit;
+}
+.content{
+    padding: 2rem;
+}
+.title{
+    letter-spacing: 0.2rem;
+}
+.rs1{
+    font-size: 2rem;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    display:inline;
+    margin-right: 1rem;
+    font-weight: 700;
+}
+.rs2{
+    display: inline;
+    font-size: 1rem;
+    text-decoration: line-through;
+}
+.btn{
+    background-color: hsl(158, 36%, 37%);
+    margin-top: 2rem;;
+    height: 2rem;
+    border-radius: 8px;
+    padding: 0.5rem 3rem;
+    font-size: 1.5rem;
+}
+.btn a{
+    color: hsl(30, 38%, 92%);
+    text-decoration: none;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
